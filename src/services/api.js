@@ -3,7 +3,7 @@ import axios from "axios";
 console.log("ENV", process.env.REACT_APP_API);
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API || "https://if67i-backend.herokuapp.com",
+  baseURL: process.env.REACT_APP_API || "localhost:4516",
 });
 
 axios.interceptors.request.use(

@@ -3,7 +3,7 @@ import {
   InputField,
   InputContainer,
   Label,
-} from './styled';
+} from './styles';
 import ErrorMessage from '../ErrorMessage';
 
 const FormikInput = ({

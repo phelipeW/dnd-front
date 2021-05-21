@@ -49,6 +49,7 @@ const SignIn = () => {
   return (
     <Container>
       <Content>
+        <p>Login</p>
         <Formik
           initialValues={{
             email: '',
@@ -79,7 +80,7 @@ const SignIn = () => {
                 onChange={handleChange}
                 style={{ width: 340 }}
               />
-              <button> {loading ? <ClipLoader size={24}/>: 'Login'}</button>
+              <button onClick={submitForm}> {loading ? <ClipLoader size={24}/>: 'Login'}</button>
               <Link to="/signup"> {"Cadastrar"}</Link>
             </>
           )}

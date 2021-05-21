@@ -13,6 +13,6 @@ export default {
   yellow: '#fbb911',
   black: '#000',
   inputs: '#232129',
-  background: '#3f3f3f',
+  background: '#9395984D',
   light: '#e4edf8',
 };

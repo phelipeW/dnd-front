@@ -107,7 +107,7 @@ const SignUp = () => {
                 value={values.password_confirmation}
                 onChange={handleChange}
               />
-              <button> {loading ? <ClipLoader size={24}/>: 'Cadastrar'}</button>
+              <button onClick={submitForm}> {loading ? <ClipLoader size={24}/>: 'Cadastrar'}</button>
             </>
           )}
           >
